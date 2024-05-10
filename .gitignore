@@ -1,0 +1,8 @@
+*/**/__pycache__
+__pycache__
+*.txt
+
+ast_dump
+class_hierarchy_graphs
+source_logical_inconsistent_info
+cycle_inconsistent_info
