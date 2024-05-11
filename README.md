@@ -13,7 +13,7 @@ The path can be to either a Python script or a folder that contains Python sourc
 ```
 python check_inheritance_consistency.py [path to pickle dump file]
 ```
-If found, the script outputs found cycle and mro inconsistencies and creates folders `cycle_inconsistent_info` and `source_logical_inconsistent_info` with dumped information on the inconsistencies. Information on found cycle inconsistencies, the classes in a cycle, is dumped in `cycle_inconsistent_info/<name of Python script or folder>.txt`, and information on found logical inconsistencies, the classes with inconsistent mro, is dumped in `source_logical_inconsistent_info/<name of Python script or folder>.txt`. Source logical inconsistencies refer to the found mro inconsistencies.
+If found, the script outputs found cycle and mro inconsistencies and creates folders `cycle_inconsistent_info` and `source_logical_inconsistent_info` if not created. Information on found cycle inconsistencies, the classes in a cycle, is dumped in `cycle_inconsistent_info/<name of Python script or folder>.txt`, and information on found logical inconsistencies, the classes with inconsistent mro, is dumped in `source_logical_inconsistent_info/<name of Python script or folder>.txt`. Source logical inconsistencies refer to the found mro inconsistencies.
 
 The output has names of classes prepended by the path in dot notation relative to the root of the provided source code. For example, class `X` in `sample_inconsistent_codebase/a.py` is referred to as `sample_inconsistent_codebase.a.X`.
 
