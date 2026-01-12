@@ -2,8 +2,10 @@
 This tool is a Python code analyzer that can find method resolution order (mro) and cycle inconsistencies in Python libraries. mro inconsistencies refer to the mismatches found from attempted mro linearization, and cycle inconsistencies refer to cyclic class inheritance. See [poster](https://github.com/JessHua159/inconsistency-checker/blob/main/poster.pdf) for more details.
 
 <figure>
-    <img src="poster.jpg"
-         alt="Static Inconsistency Detection of Python Class Inheritance poster">
+    <a href="poster.pdf">
+        <img src="poster.jpg"
+            alt="Static Inconsistency Detection of Python Class Inheritance poster">
+    </a>
 </figure>
 
 ## Usage
